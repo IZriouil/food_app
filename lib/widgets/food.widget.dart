@@ -82,7 +82,7 @@ class FoodWidget extends StatelessWidget {
                       return RotationTransition(
                         turns: Tween<double>(begin: 0, end: 1).animate(animation),
                         child: ScaleTransition(
-                            scale: Tween<double>(begin: 1, end: 1.6).animate(animation), child: hero),
+                            scale: Tween<double>(begin: 1, end: 2).animate(animation), child: hero),
                       );
                     },
                     child: DecoratedBox(

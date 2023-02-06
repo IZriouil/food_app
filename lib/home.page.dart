@@ -5,6 +5,8 @@ import 'package:food_app/widgets/most_popular_list.widget.dart';
 import 'package:food_app/widgets/restaurants_list.widget.dart';
 import 'package:food_app/widgets/search_bar.widget.dart';
 
+import 'config/layout.constants.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -42,13 +44,20 @@ class HomePage extends StatelessWidget {
       ),
       body: SafeArea(
         top: true,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
-            SearchBarWidget(),
-            RestaurantsListWidget(),
-            Expanded(child: MostPopularListWidget()),
-          ],
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: SizedBox(
+            height: MediaQuery.of(context).size.height,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: const [
+                SearchBarWidget(),
+                SizedBox(height: kDefaultPadding),
+                RestaurantsListWidget(),
+                Expanded(child: MostPopularListWidget()),
+              ],
+            ),
+          ),
         ),
       ),
     );
