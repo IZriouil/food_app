@@ -1,16 +1,39 @@
-# food_app
+# Food App Concept: Design Challenge Animation
 
-A new Flutter project.
+## Introduction
+This is a Flutter project that showcases a food app concept animation, which was created as part of a design challenge. The goal of this project is to demonstrate the creative process of designing and animating an app concept. 
 
-## Getting Started
+## Demo
+Here's a demo of the food app concept animation:
 
-This project is a starting point for a Flutter application.
+![Food Animation Design Challenge](demo.gif)
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- `PageRouteBuilder` usage for a smooth page transition
+- Advanced usage of `Hero Widget`.
+- Usage of  `Animated Widgets` such as `AnimatedContainer`, `AnimatedPadding` to handle the small animations.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
+- Flutter SDK
+- Google Fonts
+- Flutter_svg
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
+1. Clone the repository
+2. Navigate to the project directory
+3. Run the following command in the terminal:
+```
+flutter run
+```
+
+## Contributing
+Feel free to contribute by creating a pull request. Your contributions are always welcome!
+
+## References
+This project was inspired by a food app concept animation created by [Zakir - 
+Food view iOS app / Animation](https://dribbble.com/shots/7904520-Food-view-iOS-app-Animation).
+
+
+
+## License
+This project is intended for educational purposes only and may not be used for commercial purposes. See the [LICENSE.md](LICENSE.md) file for details.
